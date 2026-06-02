@@ -1,12 +1,12 @@
-# AIContext
+# SqueezyContext
 
-A lightweight documentation framework for collaborative development with AI assistants.
+A lightweight documentation framework for persistent AI assistant context across sessions.
 
 ---
 
 ## What This Is
 
-AIContext is a set of structured Markdown templates that give an AI assistant persistent context across sessions. Without it, every session starts cold - the AI has no memory of decisions made, patterns established, features built, or how you like to work. With it, you drop the docs folder into your repo, keep it current, and every new session starts informed.
+SqueezyContext is a set of structured Markdown templates that give an AI assistant persistent context across sessions. Without it, every session starts cold - the AI has no memory of decisions made, patterns established, features built, or how you like to work. With it, you drop the `AI-Assistant/` folder into your repo, keep it current, and every new session starts informed.
 
 The system is a self-sustaining loop: the AI reads the docs at the start of a session, works with you, and updates the docs before the session ends. The next session picks up exactly where the last one left off.
 
@@ -27,9 +27,9 @@ The docs are plain Markdown - readable by humans and AI alike, version-controlle
 
 ## How to Use It
 
-1. Copy the `docs/ai-assistant/` folder into your repository
+1. Copy the `AI-Assistant/` folder into your repository
 2. Fill in each template - replace placeholder content with your project specifics
-3. At the start of every AI session, say: **"read docs/ai-assistant and let's begin"**
+3. At the start of every AI session, say: **"read my AI-Assistant folder and let's begin"** - or if you're using SqueezyContext verbatim, just say **"read my SqueezyContext"**
 4. At the end of every session, ask the AI to update any docs that changed
 5. Commit the doc changes with your code changes
 
@@ -38,6 +38,8 @@ That's it. The templates tell you what to put where. The AI learns the conventio
 ---
 
 ## The Files
+
+All templates live in `AI-Assistant/` at the root of your repo.
 
 | File | Purpose |
 |---|---|
