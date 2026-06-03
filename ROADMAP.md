@@ -1,9 +1,15 @@
 # [Project Name] - Roadmap
 
-Build phases and priorities for [project name]. Phases give the AI a clear
-sense of scope - what belongs now vs later.
+> **This file is maintained by the AI assistant, not the user.**
+> Update phase status and priorities as work progresses. If a phase is complete, mark it done.
+> If scope changes, update this file immediately — don't let it lag behind reality.
 
-Priority labels used throughout this document:
+---
+
+Build phases and priorities for [project name]. Phases give the AI a clear sense of scope —
+what belongs now versus later.
+
+Priority labels:
 
 - **REQUIRED** - project is not useful without this
 - **GOOD START** - makes the initial version worth showing
@@ -16,7 +22,6 @@ Priority labels used throughout this document:
 ## Engineering Foundations
 
 Cross-cutting infrastructure that should be in place before the project grows.
-These are not features - they are the scaffolding everything else depends on.
 
 | Item | Notes | Priority |
 |---|---|---|
@@ -29,7 +34,7 @@ These are not features - they are the scaffolding everything else depends on.
 
 ## Phase 0 - [Phase Name, e.g. POC / Proof of Concept]
 
-**Goal:** [One sentence. What does "done" look like for this phase? Who can do what?]
+**Goal:** [One sentence. What does "done" look like for this phase?]
 
 | Feature | Requirement | Priority |
 |---|---|---|
@@ -40,11 +45,11 @@ These are not features - they are the scaffolding everything else depends on.
 - [Explicit exclusion - sets scope boundary]
 - [Explicit exclusion]
 
-**Done when:** [Specific, observable outcome. Not "when it feels ready."]
+**Done when:** [Specific, observable outcome — not "when it feels ready."]
 
 ---
 
-## Phase 1 - [Phase Name, e.g. Real Foundation]
+## Phase 1 - [Phase Name]
 
 **Goal:** [One sentence describing the phase's purpose and outcome.]
 
@@ -69,16 +74,9 @@ These are not features - they are the scaffolding everything else depends on.
 
 ---
 
-## Phase N - [Additional phases as needed]
-
----
-
 ## Implementation Concerns
 
-Foresights and potential complications to keep in mind before reaching the
-relevant phase. Add entries as concerns are identified. Remove when resolved.
+Foresights and potential complications. Add entries as concerns are identified. Remove when resolved.
 
-- **[Phase X - Concern name]:** [Description of the risk, tradeoff, or dependency
-  that needs to be addressed before or during that phase.]
-
+- **[Phase X - Concern name]:** [Description of the risk, tradeoff, or dependency.]
 - **[Phase X - Concern name]:** [Description.]
