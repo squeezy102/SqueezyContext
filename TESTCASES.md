@@ -1,38 +1,34 @@
 # [Project Name] - Test Cases
 
-Manual test cases to run before every session handoff or release. These are
-not a substitute for automated tests - they are the human verification layer
-for things automated tests can't easily cover: UI behavior, end-to-end flows,
-and "does this actually feel right."
-
-Mark each result when running:
-- ✅ Pass
-- ❌ Fail - [brief note on what went wrong]
-- ⏳ Not yet testable - [brief note on what's missing]
-
-Add new test cases as features are built. Never delete a test case - mark it
-as superseded and note what replaced it if the behavior changes.
+> **This file is maintained by the AI assistant, not the user.**
+> Add test cases as features are built. Update last-result status after each test run.
+> Never delete a test case — mark it superseded if the behavior changes.
 
 ---
 
-## Test Case Template
+Manual test cases to run before every session handoff or release. These are not a substitute
+for automated tests — they are the human verification layer for UI behavior, end-to-end flows,
+and "does this actually feel right."
 
-Copy this block for each new test case.
+Mark each result:
+- ✅ Pass
+- ❌ Fail — [brief note on what went wrong]
+- ⏳ Not yet testable — [brief note on what's missing]
 
 ---
 
 ## TC-001: [Test Case Name]
 
-**What it tests:** [One sentence - the feature or behavior being verified]
+**What it tests:** [One sentence — the feature or behavior being verified]
 
-**Preconditions:** [What must be true before running this test - e.g. "user is logged in", "at least one record exists"]
+**Preconditions:** [What must be true before running this test]
 
 **Steps:**
 1. [Exact action]
 2. [Exact action]
 3. [Exact action]
 
-**Expected:** [What should happen - be specific enough that pass/fail is unambiguous]
+**Expected:** [What should happen — specific enough that pass/fail is unambiguous]
 
 **Last result:** ⏳ Not yet tested
 
@@ -59,22 +55,19 @@ Copy this block for each new test case.
 **Be specific about expected outcomes.** "It works" is not a pass criterion.
 "The modal closes and the new record appears in the table" is.
 
-**Cover the unhappy path.** For every feature, add at least one test case for
-failure behavior - invalid input, missing data, network error, permission denied.
+**Cover the unhappy path.** For every feature, add at least one test case for failure behavior.
 
-**Group related cases.** Use a comment header (## Feature Name) to group test
-cases for the same feature area.
+**Group related cases.** Use a comment header (`## Feature Name`) to group test cases by area.
 
-**Order matters.** Put smoke tests first (app loads, user can log in), then
-core workflows, then edge cases.
+**Order matters.** Smoke tests first, then core workflows, then edge cases.
 
-**Common test case categories to cover:**
+**Common categories to cover:**
 - App startup / initial load
 - Authentication (if applicable)
 - Core CRUD operations for each data type
-- Form validation - required fields, invalid input, boundary values
-- Navigation - every route reachable, back button behavior
-- Error states - API down, network failure, empty states
+- Form validation — required fields, invalid input, boundary values
+- Navigation — every route reachable, back button behavior
+- Error states — API down, network failure, empty states
 - Mobile / responsive behavior (if applicable)
 - Permissions (if applicable)
 
@@ -82,8 +75,6 @@ core workflows, then edge cases.
 
 ## Future Test Cases
 
-Use this section to track test cases that are planned but not yet written,
-because the feature isn't built yet.
+Test cases planned but not yet written because the feature isn't built yet.
 
-- TC-XXX: [Feature name] - [brief note on what will need to be tested]
-- TC-XXX: [Feature name] - [brief note]
+- TC-XXX: [Feature name] — [brief note on what will need to be tested]
