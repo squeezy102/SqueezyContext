@@ -1,10 +1,8 @@
 # [Project Name] - AI Session Context
 
-Running notes for AI assistant continuity across sessions. This is the most
-important file in the framework. Keep it current - an outdated CONTEXT.md
-misleads more than it helps.
-
-**Update this file at the end of every session.**
+> **This file is maintained by the AI assistant, not the user.**
+> Update it in real time as work happens — not batched to the end of a session.
+> An outdated CONTEXT.md misleads more than it helps. If something here is wrong, correct it now.
 
 ---
 
@@ -21,7 +19,6 @@ misleads more than it helps.
 Describe where the project stands right now. Be specific enough that someone
 reading this cold can understand what exists and what doesn't.
 
-Example structure:
 - **[Phase or milestone name]:** Complete / In progress / Not started
 - **[Feature area]:** Brief status note
 
@@ -29,15 +26,13 @@ Example structure:
 
 ## What Has Been Built
 
-A running inventory of completed work. Organized by area. Add to this as
-features are completed - do not remove entries unless something was torn out.
+A running inventory of completed work. Add to this as features are completed.
+Do not remove entries unless something was torn out.
 
 ### [Area 1 - e.g. Frontend]
-- [Feature or component]: brief description of what it does
 - [Feature or component]: brief description
 
 ### [Area 2 - e.g. Backend]
-- [Feature or component]: brief description
 - [Feature or component]: brief description
 
 ### [Area 3 - e.g. Infrastructure / Tooling]
@@ -47,8 +42,7 @@ features are completed - do not remove entries unless something was torn out.
 
 ## What Was Built This Session
 
-A brief record of what changed in the most recent session. Replace this section
-each session - the git log is the permanent record, this is the handoff note.
+Replace this section each session — the git log is the permanent record, this is the handoff note.
 
 - [Change 1]: brief description
 - [Change 2]: brief description
@@ -60,7 +54,6 @@ each session - the git log is the permanent record, this is the handoff note.
 Explicitly list what is NOT yet built that might be assumed to exist.
 This prevents the AI from assuming a feature is present when it isn't.
 
-Example:
 - Authentication not yet implemented
 - No email notifications yet
 - Settings screen is scaffolded but not wired to backend
@@ -69,8 +62,7 @@ Example:
 
 ## Next Session Priorities
 
-Ordered list of what to work on next. Be specific. The AI reads this at the
-start of a session to know where to pick up.
+Ordered list of what to work on next. The AI reads this at the start of a session.
 
 1. **[Priority 1]** - brief description of what and why
 2. **[Priority 2]** - brief description
@@ -80,7 +72,7 @@ start of a session to know where to pick up.
 
 ## File Structure
 
-Keep this current as the project grows. The AI uses this to navigate the codebase.
+Keep this current as the project grows.
 
 ```
 [project-root]/
@@ -94,9 +86,7 @@ Keep this current as the project grows. The AI uses this to navigate the codebas
 ## Key Technical Notes
 
 Capture anything a new session needs to know that isn't obvious from the code.
-Naming conventions, gotchas, environment requirements, non-obvious behavior.
 
-Examples:
 - **Naming conventions:** [e.g. Python = snake_case, JS = camelCase]
 - **API pattern:** [e.g. All responses go through _to_dict() - never return raw ORM objects]
 - **Environment variables:** [names and what they're for - not values]
@@ -119,7 +109,6 @@ Exact commands to start the app locally. Keep this current.
 URLs:
 - App: [URL]
 - API / backend: [URL]
-- [Other services]: [URL]
 
 ---
 
@@ -128,4 +117,3 @@ URLs:
 Decisions that haven't been made yet. Remove when resolved.
 
 - **[Decision topic]** - what needs to be decided and why it's blocked
-- **[Decision topic]** - context on the options being considered
